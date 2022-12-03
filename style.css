@@ -100,7 +100,14 @@
 .secondnav a.active {
   color: #000;
 }
-
+.thirdnav {
+  display: flex;
+  justify-content: center;
+}
+.logo-margin {
+  margin-left: 50px;
+  margin-right: 50px;
+}
 /* cards */
 .card {
   /* Add shadows to create the "card" effect */
@@ -154,6 +161,18 @@ img {
   display: flex;
 
   /* justify-content: center; */
+}
+
+.text-picture {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.footer-items {
+  margin-left: 100px;
+}
+.footer-item-color {
+  color: #fff !important;
 }
 /* media queries */
 @media screen and (max-width: 600px) {
